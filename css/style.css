@@ -16,14 +16,57 @@ nav {
   height: 100px;
   display: flex;
 }
+nav #logo {
+  display: flex;
+}
+nav #logo div span.material-symbols-outlined {
+  font-family: "Material Symbols Outlined";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 75px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  color: #000;
+}
 nav ul {
   display: inline-block;
   list-style-type: none;
 }
 nav ul li {
-  width: 100%;
-  background-color: #ccc;
+  margin-top: 100px;
 }
 nav ul li a {
+  background-color: #ccc;
   text-decoration: none;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 320px) {
+  #container {
+    background: #f0f02c;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 425px) {
+  #container {
+    background: #74EBD5;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  #container {
+    background: #9FACE6;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+  #container {
+    background: #76b7ea;
+  }
 }/*# sourceMappingURL=style.css.map */
