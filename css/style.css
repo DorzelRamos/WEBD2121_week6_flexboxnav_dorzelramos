@@ -16,10 +16,10 @@ nav {
   height: 100px;
   display: flex;
 }
-nav #logo {
+nav #menu {
   display: flex;
 }
-nav #logo div span.material-symbols-outlined {
+nav #menu div span.material-symbols-outlined {
   font-family: "Material Symbols Outlined";
   font-weight: normal;
   font-style: normal;
@@ -64,9 +64,30 @@ nav ul li a {
   #container {
     background: #9FACE6;
   }
+  #container nav a {
+    font-size: 40px;
+  }
+  #container nav li {
+    display: block;
+    margin-top: 0;
+    margin-left: 50px;
+    width: auto;
+    float: left;
+    padding-top: 30px;
+  }
 }
 @media screen and (min-width: 769px) and (max-width: 1440px) {
   #container {
     background: #76b7ea;
+  }
+  #container nav a {
+    font-size: 35px;
+  }
+  #container nav li {
+    display: block;
+    margin-top: 0;
+    margin-left: 200px;
+    float: left;
+    padding-top: 30px;
   }
 }/*# sourceMappingURL=style.css.map */
